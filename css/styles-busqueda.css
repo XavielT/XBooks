@@ -1,0 +1,93 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0056b3; 
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.navbar a.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+/* Título */
+header h1 {
+    text-align: center;
+    color: #0056b3; 
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+/* Contenedor de resultados */
+.resultados {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resultados p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.resultados strong {
+    color: #0056b3; 
+}
+
+/* Lista de resultados */
+.lista-resultados {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-resultados li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.lista-resultados li h2 {
+    color: #0056b3; 
+    margin: 0 0 5px;
+    font-size: 24px;
+}
+
+.lista-resultados li p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.lista-resultados li:last-child {
+    border-bottom: none;
+}
